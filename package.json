@@ -1,0 +1,53 @@
+{
+  "name": "real-estate",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "lint": "eslint src/ --ext .js,.ts,.vue",
+    "lint:fix": "eslint src/ --ext .js,.ts,.vue --fix",
+    "test:unit": "jest",
+    "test:unit@watch": "jest --watch"
+  },
+  "dependencies": {
+    "airtable": "^0.11.1",
+    "vue": "^3.2.4",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@types/node": "^16.7.1",
+    "@types/testing-library__jest-dom": "^5.14.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "@vitejs/plugin-vue": "^1.4.0",
+    "@vue/compiler-sfc": "^3.2.4",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-vue": "^7.16.0",
+    "jest": "^27.0.6",
+    "jest-circus": "^27.0.6",
+    "jest-transform-stub": "^2.0.0",
+    "postcss": "^8.3.6",
+    "postcss-nested": "^5.0.6",
+    "postcss-nested-ancestors": "^2.0.0",
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-config-tailwindcss": "^0.0.1",
+    "stylelint-prettier": "^1.2.0",
+    "tailwindcss": "^2.2.7",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5",
+    "vite": "^2.5.0",
+    "vite-plugin-svg-icons": "^1.0.4",
+    "vue-eslint-parser": "^7.10.0",
+    "vue-jest": "^5.0.0-alpha.10",
+    "vue-tsc": "^0.3.0",
+    "vuex-module-decorators": "^1.0.1"
+  },
+  "packageManager": "yarn@3.0.1"
+}
